@@ -28,9 +28,9 @@ const SavedBooks = () => {
       });
       console.log(data)
 
-      if (!response.ok) {
-        throw new Error('something went wrong!');
-      }
+      // if (error) {
+      //   throw new Error('something went wrong!');
+      // }
 
       // upon success, remove book's id from localStorage
       removeBookId(bookId);
