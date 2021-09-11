@@ -13,18 +13,18 @@ const resolvers = {
         // getSingleUser
         me: async (parent, args, context) => {
             if (context.user) {
-                const userDate = await User.findOne({ _id: context.user._id })
+                const userData = await User.findOne({ _id: context.user._id })
                     .select('-__v -password')
 
-                return userDate;
+                return userData;
             }
             throw new AuthenticationError('Not Logged In');
         }
     },
 
     Mutation: {
-        // createUser
-        createUser: async (parent, args) => {
+        // addUser
+        addUser: async (parent, args) => {
             const user = await User.create(args);
             const token = signToken(user);
 
