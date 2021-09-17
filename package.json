@@ -1,6 +1,6 @@
 {
-  "name": "book-search",
-  "version": "1.0.0",
+ "name": "book-search",
+ "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
   "scripts": {
@@ -13,10 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^5.3.0"
-  },
-  "dependencies": {
-    "@apollo/client": "^3.4.7",
-    "graphql": "^15.5.1"
+    "concurrently": "^5.1.0"
   }
 }
+
