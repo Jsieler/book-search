@@ -1,6 +1,6 @@
 {
- "name": "book-search",
- "version": "1.0.0",
+  "name": "book-search",
+  "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
   "scripts": {
@@ -13,9 +13,17 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-   "@apollo/client": "^3.4.7",
-   "graphql": "^15.5.1",
-   "concurrently": "^5.1.0"
-  }
+    "@apollo/client": "^3.4.7",
+    "graphql": "^15.5.1",
+    "concurrently": "^5.1.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jsieler/book-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jsieler/book-search/issues"
+  },
+  "homepage": "https://github.com/Jsieler/book-search#readme"
 }
-
